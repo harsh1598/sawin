@@ -1,0 +1,68 @@
+@use '/src/variables';
+.call-buget-modal {
+  margin-left: 20px;
+  margin-right: 20px;
+
+  .call-bugest-table {
+    width: 100%;
+    text-align: center;
+  }
+
+  table,
+  th,
+  td {
+    border: 1px solid variables.$shadeGrey;
+    font-weight: 100;
+    padding: 5px 0;
+  }
+
+  .form-style {
+    .form-control {
+      height: 42px;
+      padding: 6px ​12px;
+      color: variables.$black;
+      font-weight: 300;
+      background-color: variables.$ghostWhite;
+      border-color: variables.$grey91;
+      border-radius: 7px;
+      transition: 0.2s;
+      margin-top: 8px;
+    }
+    .form-control:focus {
+      border-color: variables.$autumn;
+      background-color: variables.$color2;
+    }
+    .form-control::placeholder {
+      color: variables.$grey;
+      font-weight: 300;
+      font-size: 15px;
+    }
+    label {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+      color: variables.$black;
+      font-family: "Open Sans";
+      font-style: normal;
+    }
+  }
+  .box {
+    margin: 0;
+    margin-bottom: 0px;
+    padding: 5px 0px 5px;
+  }
+  .middle {
+    vertical-align: middle;
+  }
+
+  th {
+    color: variables.$black;
+    background: variables.$lightWhite;
+  }
+
+  tr,
+  td {
+    color: variables.$black;
+    background: variables.$white !important;
+  }
+}

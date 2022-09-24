@@ -1,0 +1,37 @@
+.modalHeader {
+    background-color: #177fab !important;
+}
+
+.modalTitle {
+    font-size: 15px;
+    color: #fff;
+}
+
+.modalContent {
+    font-size: 13px;
+}
+
+.form-style {
+    .form-control {
+        height: 42px;
+        padding: 6px ​12px;
+        color: #000;
+        font-weight: 300;
+        background-color: #f9f9f9;
+        border-color: #e8e8e8;
+        border-radius: 7px;
+        transition: 0.2s;
+        margin-top: 8px;
+    }
+
+    .form-control:focus {
+        border-color: #bbbbbb;
+        background-color: #fff;
+    }
+
+    .form-control::placeholder {
+        color: #D9D9D9;
+        font-weight: 300;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,40 @@
+@use '/src/variables';
+
+.main-sidebar {
+  position: fixed;
+  height: 93vh;
+}
+
+.pro-icon-wrapper{background-color: transparent;}
+.pro-sidebar-inner {
+  background: variables.$bg-gradient-v;
+  color: variables.$white !important;
+}
+
+.popper-inner,
+.pro-inner-list-item {
+  
+
+}
+
+.sa-side-footer {
+  padding: 0px 20px 15px 10px;
+}
+
+.sa-side-footertext {
+  margin-left: 10px;
+}
+
+.sa-side-footercol {
+  font-size: 11px;
+  padding: 0px 10px 0px 12px;
+  opacity: 0.7;
+  margin-top: -3px;
+}
+.main-sidebar .toggle-menu-btn{
+  opacity: 0.6;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.main-sidebar .toggle-menu-btn:hover{opacity: 1;}
+@import "./scss/styles.scss";

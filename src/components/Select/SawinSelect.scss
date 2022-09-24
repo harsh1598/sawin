@@ -1,0 +1,100 @@
+@use "/src/variables";
+.select {
+  .no-options {
+    color: variables.$black;
+    background-color: variables.$lightBlue;
+    padding: 95px 0px;
+    text-align: center;
+  }
+  
+  .expand-option,
+  .options {
+    background-color: variables.$lightBlue;
+    // border: 1px solid variables.$lightGrey;
+    border-left-width: 0.1em;
+    border-style: solid;
+    border-color: gray;
+    border-top-width: 0;
+    border-right-width: 0.1em;
+    border-bottom-width: 0.1em;
+    list-style: none;
+    margin-top: 0;
+    max-height: 300px;
+    overflow-x: auto;
+    padding-left: 0;
+    animation-name: open;
+    animation-duration: 0.7s;
+    font-size: 13px;
+    border-radius: 0px 0px 5px 5px;
+    position: relative;
+    z-index: 4;
+   
+  }
+  
+  @keyframes open {
+    from {
+      max-height: 0px;
+    }
+    to {
+      max-height: 300px;
+    }
+  }
+
+  .primary li,
+  .options li {
+    padding: 0.2rem;
+    width: 100%;
+  }
+  
+  .primary li:hover,
+  .option-active,
+  .options li:hover {
+    background-color: variables.$blue;
+    color: variables.$white;
+    cursor: pointer;
+  }
+
+  .options li:not(:last-of-type) {
+    border-bottom: 1px solid variables.$lightGrey;
+  }
+  .code-div {
+    text-align: center;
+  }
+  .select-div {
+    padding: 9px;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+  }
+  .vertical-line {
+    display: inline-block;
+    border-left: 1px solid variables.$autumn;
+    height: 25px;
+  }
+  .downarrow {
+    margin-right: 12px;
+  }
+  .searchdownarrow {
+    margin-top: -30px;
+    margin-right: 12px;
+  }
+  .zindex {
+    z-index: 100;
+  }
+  .option {
+    padding-left: 5px;
+    width: 90%;
+  }
+  .expandIcon {
+    margin: 0 3px;
+  }
+  .right-icon {
+    position: absolute;
+    float: right;
+    right: 0px;
+    background: variables.$ghostWhite;
+    top: -7px;
+    margin-left: 37px;
+    padding-left: 8px;
+  }
+}

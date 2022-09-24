@@ -1,0 +1,12 @@
+@use '/src/variables';
+.contractgrid{
+    max-height: 50vh;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;
+    overflow:scroll ;
+}
+.contractgrid::-webkit-scrollbar {
+    display: none;
+  }
+
+

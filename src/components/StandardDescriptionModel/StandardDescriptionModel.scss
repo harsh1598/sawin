@@ -1,0 +1,35 @@
+@use '/src/variables';
+.edit-address-modal {
+    margin-left: 20px;
+    margin-right: 20px;
+    .form-style {
+        .form-control {
+            height: 42px;
+            padding: 6px ​12px;
+            color: #000;
+            font-weight: 300;
+            background-color: variables.$ghostWhite;
+            border-color: variables.$grey91;
+            border-radius: 7px;
+            transition: 0.2s;
+            margin-top: 8px;
+        }
+        .form-control:focus {
+            border-color: variables.$autumn;
+            background-color: variables.$color2;
+        }
+        .form-control::placeholder {
+            color: variables.$grey;
+            font-weight: 300;
+            font-size: 15px;
+        }
+        label {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 18px;
+            color: variables.$black;
+            font-family: 'Open Sans';
+            font-style: normal;
+        }
+    }
+}

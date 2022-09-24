@@ -1,0 +1,80 @@
+@use '/src/variables';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 75px;
+  padding: 10px;
+  box-shadow: 3px 0px 5px #00000021;
+  position: fixed;
+  width: 100%;
+  z-index: 110;
+  right: 0;
+  top: 0;
+  background: linear-gradient(89.98deg, #142C7A 15.63%, #5370D1 99.98%);
+
+  .hamburger-menu {
+    height: 11.08px;
+    width: 15.83px;
+    margin-left: 20px;
+  }
+.header-icons{
+  display: flex;
+    background: variables.$ghostWhite;
+    justify-content: center;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    align-items: center;
+    .icon{width: 20px;height: 20px;}
+}
+
+  .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: variables.$white;
+    margin-left: 30px;
+  }
+
+  .object-cover {
+    object-fit: cover;
+  }
+  .profile-dd img{border: 1px solid #fff;border-radius: 50%;}
+  .profile-dd::after {
+    border: 0;
+    border-color: variables.$white;
+  }
+
+  .form-style {
+    .form-control {
+      padding-top: 7px !important;
+      height: 36px;
+      color: variables.$black;
+      font-weight: 300;
+      background-color: variables.$ghostWhite;
+      border-color: variables.$grey91;
+      border-radius: 7px;
+      transition: 0.2s;
+      margin-top: 3px !important;
+      font-size: 13px;
+    }
+
+    .form-control:focus {
+      border-color: variables.$autumn;
+      background-color: variables.$white;
+    }
+
+    .form-control::placeholder {
+      color: variables.$grey;
+      font-weight: 300;
+      font-size: 15px;
+    }
+  }
+}

@@ -1,0 +1,43 @@
+@use '/src/variables';
+
+.notes {
+    .notes-title {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: variables.$black;
+        margin-left: 16px;
+        margin-top: 11px;
+    }
+
+    .heading-view {
+        background: variables.$extremeAliceBlue;
+        margin-left: 11px;
+        margin-top: 8px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 19px;
+        color: variables.$black;
+        padding: 5px;
+    }
+
+    .edit-icon {
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .notes-description {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 19px;
+        color: variables.$black;
+        margin-left: 15px;
+        margin-top: 8px;
+    }
+}

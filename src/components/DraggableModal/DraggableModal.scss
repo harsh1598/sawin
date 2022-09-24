@@ -1,0 +1,59 @@
+.dragModal {
+    .flexible-modal {
+        border: 0 !important;
+        border-radius: 10px;
+        z-index: 1;
+        .modal-header {
+            background-color: white;
+            border-radius: 10px 10px 0 0;
+            text-align: left;
+            padding: 10px 15px;
+            width: 100%;
+            z-index: 1;
+        }
+        .modal-title {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            z-index: 1;
+        }
+        .right-icon {
+            cursor: pointer;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 18px;
+            z-index: 1;
+        }
+        .close {
+            z-index: 1;
+            color: black;
+        }
+        // .flexible-modal-mask {
+        //     position: fixed;
+        //     height: 100%;
+        //     z-index: 1 !important;
+        //     background: white;
+        //     top: 0;
+        //     left: 0;
+        //     right: 0;
+        //     bottom: 0;
+        // }
+        .flexible-modal-resizer {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            cursor: se-resize;
+            margin: 5px;
+        }
+        .flexible-modal-drag-area {
+            background: white;
+            cursor: move;
+            border-radius: 10px 10px 0 0 !important;
+        }
+    }
+    .flexible-modal-mask {
+        z-index: 1 !important;
+    }
+
+}

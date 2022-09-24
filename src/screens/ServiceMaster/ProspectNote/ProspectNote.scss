@@ -1,0 +1,23 @@
+@use '/src/variables';
+
+.prospect-note {
+    .prospect-note-heading-view {
+        margin-top: 22px;
+        margin-left: 16.33px;
+    }
+
+    .prospect-note-title {
+        margin-left: 13.33px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: variables.$black;
+        margin-top: 20px;
+    }
+
+    .prospect-note-left-icon {
+        margin-top: 23px;
+    }
+}

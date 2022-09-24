@@ -1,0 +1,28 @@
+.wrapper {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: black;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+  }
+
+  main {
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  span {
+    font-size: 5;
+    color: #555555;
+    text-align: center;
+  }
+
+  

@@ -1,0 +1,239 @@
+@use '/src/variables';
+
+.address-view {
+    width: 100%;
+    border-radius: 5px;
+    background-color: variables.$white;
+}
+
+.ci-heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: variables.$black;
+    margin-left: 16px;
+}
+
+.name-view {
+    background: variables.$lightGrey;
+}
+
+.company-name {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: variables.$black;
+    margin-left: 16px;
+}
+
+.edit-icon {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.customer-name {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: variables.$black;
+    margin-left: 16px;
+}
+
+
+.email-view {
+    padding-bottom: 12px;
+    margin-top: 10px;
+}
+
+.contact {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: variables.$black;
+    margin-left: 16px;
+}
+
+.service-address-view {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: variables.$extremeLightGrey;
+    padding-bottom: 16px;
+}
+
+.service-addrees {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: variables.$black;
+    margin-left: 17px;
+    margin-top: 16px;
+}
+
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: variables.$shadeGrey;
+    // margin-left: 17px;
+    // margin-top: 10px;
+}
+
+.billing-address {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: variables.$black;
+    margin-left: 17px;
+    margin-top: 16px;
+}
+
+.same-as {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: variables.$black;
+    margin-top: 17px;
+    margin-right: 13px;
+}
+
+.billing-company-name {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: variables.$black;
+    margin-left: 17px;
+    margin-top: 9px;
+}
+
+.billing-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: variables.$black;
+    margin-left: 17px;
+    margin-top: 4px;
+}
+
+.payment-terms {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    color: variables.$black;
+    margin-left: 17px;
+    margin-top: 8px;
+}
+
+.cod {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: variables.$black;
+    margin-left: 17px;
+    margin-top: 3px;
+}
+
+.price-view {
+    background-color: variables.$lightBlue;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+
+.price-title {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: variables.$black;
+}
+
+.price {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: right;
+    color: variables.$black;
+}
+
+.first-price-view {
+    padding-top: 11px;
+}
+
+.second-price-view {
+    margin-top: 1px;
+    padding-bottom: 13px;
+}
+
+.last-refreshed {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: variables.$black;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+.refresh-icon {
+    margin-right: 20px;
+    padding-bottom: 10px;
+}
+
+.google-button {
+    border: 1px solid variables.$blue;
+    border-radius: 5px;
+    height: 22px;
+    width: auto;
+    text-align: center;
+    padding: 0px 7px;
+    margin-left: 14px;
+}
+
+.ml-27 {
+    margin-left: 27px;
+}
+
+.ml-17 {
+    margin-left: 17px;
+}
+
+.google-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: variables.$black;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.google-checkbox {
+    height: 10px;
+    width: 10px;
+    margin-left: 5px;
+}
+
+.address-count {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: variables.$black;
+}

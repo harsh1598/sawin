@@ -1,0 +1,14 @@
+@use '/src/variables';
+
+.service {
+    background-color: variables.$white;
+    height: auto;
+    width: auto;
+}
+.service-master{
+    .right-card{
+        
+    }
+}
+
+

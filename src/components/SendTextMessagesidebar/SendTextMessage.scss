@@ -1,0 +1,211 @@
+@use '/src/variables';
+
+.information-main-view {
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+    position: fixed;
+    display: flex;
+    width: 900px;
+    height: 94vh;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+    animation-name: slide;
+    animation-duration: 0.7s;
+}
+
+@keyframes slide {
+    from {
+        max-width: 0px;
+    }
+    to {
+        max-width: 900px;
+    }
+}
+
+.image {
+    cursor: pointer;
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+    height: auto;
+    overflow-y: auto;
+    border-radius: 12px 0px 0px 12px;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+    padding: 0px 15px 33px 15px;
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.form-control {
+    height: 42px;
+    padding: 6px ​12px;
+    color: #000;
+    font-weight: 300;
+    background-color: variables.$ghostWhite;
+    border-color: variables.$grey91;
+    border-radius: 7px;
+    transition: 0.2s;
+    margin-top: 8px;
+}
+
+.form-control-textarea {
+    height: auto !important;
+    padding: 6px ​12px;
+    color: #000;
+    font-weight: 300;
+    background-color: variables.$ghostWhite;
+    border-color: variables.$grey91;
+    border-radius: 7px;
+    transition: 0.2s;
+    margin-top: 8px;
+    width: 100%;
+}
+.send-text-message {
+    width:94%;
+    background-color: variables.$lightBlue;
+    margin-top: 8px;
+    // height: 2%;
+    margin-left: 20px;
+    padding: 18px;
+    border-radius: 5px;
+}
+.send-text-text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: variables.$blue;
+}
+
+.font-lable {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 524;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+
+/*Left*/
+
+.modal.left.fade .modal-dialog {
+    left: -320px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.left.fade.in .modal-dialog {
+    left: 0;
+}
+
+
+/*Right*/
+
+.icons-view {
+    margin-top: 57px;
+}
+
+.modal.right.fade .modal-dialog {
+    right: 0px;
+    -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, top 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+
+/* ----- MODAL STYLE ----- */
+
+.modal-content {
+    border-radius: 0;
+    border: none;
+}
+
+.modal-header {
+    background-color: white;
+    border-bottom: 0px;
+}
+
+.deleteicon {
+    cursor: pointer;
+}
+
+.addicon {
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.modal-title {
+    font-family: 'Open Sans';
+    position: 'fixed';
+    font-style: normal;
+    width: 100%;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+    color: #02101B;
+}
+
+
+/* ----- v CAN BE DELETED v ----- */
+
+.demo {
+    padding-top: 60px;
+    padding-bottom: 110px;
+}
+
+.btn-demo {
+    margin: 15px;
+    padding: 10px 15px;
+    border-radius: 0;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+
+.btn-demo:focus {
+    outline: 0;
+}
+
+.demo-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #212121;
+    text-align: center;
+}
+
+.demo-footer>a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+}
+.text-editor-margin{
+    margin-bottom: 100px;
+}
+.box-size{
+    height: 13px;
+    width:13px
+}
+.box-color{
+    background-color: red;
+}
+.box-background-color{
+    background-color: green;
+}
+}
+

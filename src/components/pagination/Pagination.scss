@@ -1,0 +1,28 @@
+.pagination {
+    margin-top: 10px;
+    margin-right: 10px;
+
+    .arrow-box {
+        width: 24px;
+        height: 24px;
+        left: 1325px;
+        top: 470px;
+        background: #FFFFFF;
+        border: 1px solid #D9D9D9;
+        border-radius: 5px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .pagination-count {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        color: #02101B;
+        padding-top: 3px;
+    }
+
+    .pagination-icon {
+        padding-bottom: 5px;
+    }
+}

@@ -1,0 +1,137 @@
+@use '/src/variables';
+
+.edit-address {
+    background-color: variables.$whiteSmoke;
+    height: 100vh;
+    padding-top: 87px;
+    margin-left: 50px;
+
+    .main-edit-address {
+        background-color: variables.$white;
+        margin-left: 46px;
+        margin-right: 16px;
+        border: 1px solid variables.$grey;
+        border-radius: 5px;
+    }
+
+    .back-arrow {
+        margin-left: 35.33px;
+        margin-top: 20px;
+    }
+
+    .service-location-info {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 27px;
+        color: variables.$black;
+        margin-left: 36px;
+        margin-top: 15px;
+    }
+
+    .service-location-form {
+        margin-left: 36px;
+    }
+
+    .form-style {
+        .form-control {
+            height: 42px;
+            // width: 94%;
+            padding: 6px ​12px;
+            color: #000;
+            font-weight: 300;
+            background-color: variables.$lightGrey;
+            border-color: variables.$grey91;
+            border-radius: 7px;
+            transition: 0.2s;
+            margin-top: 8px;
+        }
+
+        .form-control:focus {
+            border-color: variables.$autumn;
+            background-color: variables.$color2;
+        }
+
+        .form-control::placeholder {
+            color: variables.$lowGrey;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+        }
+
+        label {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 18px;
+            color: variables.$black;
+        }
+    }
+
+    .default-service {
+        margin-top: 15px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: variables.$black;
+    }
+
+    .edit-address-button-view {
+        margin-top: 47px;
+        margin-bottom: 41px;
+        justify-content: center;
+
+        .button {
+            width: 328px;
+        }
+    }
+
+    .checkbox {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin-left: 5px;
+    }
+
+    .horizontal-line {
+        width: 98%;
+        border: 1px solid variables.$extremeLightGrey;
+        margin-top: 20px;
+        margin-bottom: 13px;
+    }
+
+    .add-button {
+        cursor: pointer;
+        background: variables.$color4;
+        width: 98px;
+        align-items: center;
+        justify-content: center;
+        color: variables.$blue;
+    }
+
+    .add-button-view {
+        // margin-left: 39px;
+        margin-top: 5px;
+    }
+
+    .service-location-address {
+        width: 99%;
+        background-color: variables.$lightBlue;
+        margin-top: 8px;
+        padding: 18px;
+        border-radius: 5px;
+    }
+
+    .address-text {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: variables.$black;
+    }
+}

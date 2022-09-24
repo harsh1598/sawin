@@ -1,0 +1,37 @@
+@use '/src/variables';
+.new-box-main-view {
+  
+
+    .new-box-view {
+        width: 360px;
+        height: 210px;
+        background: variables.$white;
+        border: 2px solid variables.$blue;
+        border-style: dashed;
+        border-radius: 5px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .upload-icon {
+        margin-right: 20px;
+        color: variables.$blue;
+    }
+    .text-editor-margin{
+        margin-bottom: 100px;
+    }
+.chkboxdiv{
+    display: flex;
+    align-items: center;
+}
+.addequpment-chkbox{
+    margin-left: 8px;
+}
+.upload-file-input{
+    display: none;
+}
+.add-new-equipment{
+    display: none;
+}
+
+}

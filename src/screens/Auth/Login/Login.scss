@@ -1,0 +1,138 @@
+@use '/src/variables';
+
+.main {
+   width: auto;
+   margin-top: 6%;
+   margin-bottom: 6%;
+}
+
+.logoView {
+    text-align: center;
+}
+
+.logo-sawin {
+    margin-top: 33px;
+    height: 70px;
+    width: 160px;
+}
+
+.heading {
+    font-size: 34px;
+    font-weight: 700;
+    margin-left: 88px;
+    margin-top: 18px;
+
+    font-style: normal;
+    color: variables.$black;
+}
+
+.subHeading {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 88px;
+
+    color: variables.$black;
+    font-style: normal;
+    line-height: 16px;
+    margin-top: 7px;
+}
+
+.loginContainer {
+    background: variables.$white;
+    position: relative;
+    margin-left: 88px;
+    margin-top: 10px;
+    width: 500px;
+}
+
+.form-style {
+    .form-control {
+        height: 42px;
+        padding: 6px ​12px;
+        color: variables.$black;
+        font-weight: 300;
+        background-color: variables.$ghostWhite;
+        border-color: variables.$grey91;
+        border-radius: 7px;
+        transition: 0.2s;
+        margin-top: 3px !important;
+    }
+
+    .form-control:focus {
+        border-color: variables.$autumn;
+        background-color: variables.$white;
+    }
+
+    .form-control::placeholder {
+        color: variables.$grey;
+        font-weight: 300;
+        font-size: 15px;
+    }
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.pageTitle {
+    font-size: 16px;
+    border-bottom: 1px solid variables.$secondary;
+    text-align: center;
+    color: variables.$blue;
+    font-weight: bold;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.frontImage {
+    height: 100vh;
+}
+
+.staticText {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: variables.$black;
+    margin-left: 11px;
+}
+
+.signUpText {
+    color: variables.$blue;
+    font-size: 16px !important;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.error {
+    color: variables.$chestnut;
+    margin-top: 2px;
+    height: 15px;
+    font-size: 13px;
+}
+
+.b1-login {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.account {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: variables.$black;
+    margin-left: 7px;
+}
+
+.createAccount {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: variables.$blue;
+}

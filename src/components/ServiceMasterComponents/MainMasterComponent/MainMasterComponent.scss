@@ -1,0 +1,89 @@
+@use "/src/variables";
+
+.service-modal-tab {
+  margin-bottom: 20px;
+  z-index: 9999999999;
+
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+    color: variables.$blue;
+    background-color: variables.$white;
+    border-color: none;
+    border: 0px;
+    border-bottom: 2px solid variables.$blue;
+    width: 232px;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  .nav-tabs {
+    border-bottom: none;
+    color: variables.$black;
+    border-bottom: 1px solid variables.$whiteSmoke;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 7px;
+  }
+
+  .nav-tabs .nav-link {
+    color: variables.$black;
+  }
+
+  .nav-tabs .nav-link:hover {
+    color: variables.$grey;
+    border: 0px;
+  }
+
+  .nav-tabs .nav-link:disabled {
+    color: variables.$grey;
+  }
+
+  .icon-view {
+    margin-bottom: -36px;
+  }
+
+  .hamburg-icon {
+    padding-top: 7px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    cursor: pointer;
+  }
+
+  .service-option {
+    background-color: variables.$lightBlue;
+    border: 1px solid variables.$lightGrey;
+    border-radius: 5px;
+    list-style: none;
+    position: absolute;
+    color: variables.$black;
+    z-index: 1;
+    text-align: left;
+    padding: 0px;
+    right: 30px;
+
+    li {
+      padding: 5px 0px;
+    }
+
+    li:hover {
+      color: variables.$white;
+      background-color: variables.$blue;
+      cursor: pointer;
+    }
+  }
+
+  .disable-option {
+    color: variables.$lowGrey  !important;
+  }
+
+  .disable-option:hover {
+    pointer-events: none;
+    background-color: variables.$lightBlue  !important;
+  }
+}

@@ -1,0 +1,97 @@
+@use '/src/variables';
+
+.customer-info-main {
+    background: variables.$bg-gradient-v;
+    width: 24px;
+    height: 192px;
+    margin-left: 7px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.right-icon {
+    margin-left: 9px;
+    margin-top: 15px;
+}
+
+.customer-title {
+    color: variables.$white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+
+.customer-information-tab {
+    margin-left: 14px;
+    width: 460px;
+    border-radius: 5px;
+    .info-card{background-color: variables.$white;box-shadow: variables.$shadow;border-radius: 4px;}
+    
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+        color: variables.$aliceBlue;
+        background: variables.$bg-gradient-v;
+        border-color: none;
+        border-radius: 5px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        height: 50px;
+        width: 120px;
+    }
+
+    .nav-tabs {
+        border-bottom: none;
+        color: variables.$black;
+        border-bottom: 1px solid variables.$whiteSmoke;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 14px;
+        text-align: center;
+        background-color: variables.$lightGrey;
+        margin-left: 8px;
+        margin-right: 8px;
+        margin-bottom: 10px;
+        height: 50px;
+        border-radius: 5px;
+        position: fixed;
+        bottom: 0px;
+    }
+
+    .nav-tabs .nav-link {
+        color: variables.$black;
+        width: 103px;
+    }
+
+    .nav-tabs .nav-link:hover {
+        color: variables.$black;
+        border: 0px;
+    }
+
+    .nav-tabs .nav-link.active:hover {
+        color: variables.$black;
+        border: 0px;
+    }
+}
+
+.closing-view {
+    background: variables.$bg-gradient-v;
+    height: 45px;
+    width: 24px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.left-arrow-icon {
+    margin-top: 18px;
+    margin-left: 10px;
+}

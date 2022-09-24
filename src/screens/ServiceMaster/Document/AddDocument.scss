@@ -1,0 +1,157 @@
+@use '/src/variables';
+
+.add-document {
+    background-color: variables.$whiteSmoke;
+    height: 100vh;
+    padding-top: 87px;
+    margin-left: 50px;
+
+    .main-add-document {
+        background-color: variables.$white;
+        margin-left: 46px;
+        margin-right: 16px;
+        border: 1px solid variables.$grey;
+        border-radius: 5px;
+        height: 85vh;
+    }
+
+    .title {
+        margin-left: 12.33px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 29px;
+        color: variables.$black;
+    }
+
+    .main-view {
+        margin-left: 16px;
+    }
+
+    .upload-document {
+        margin-top: 18px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: variables.$black;
+    }
+
+    .form-control {
+        padding: 6px ​12px;
+        color: #000;
+        font-weight: 300;
+        background-color: #f9f9f9;
+        border-color: #e8e8e8;
+        border-radius: 7px;
+        transition: 0.2s;
+        margin-top: 8px;
+        height: 80px !important;
+    }
+
+    .customer-technician-view {
+        margin-top: 10px;
+    }
+
+    .customer {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: variables.$black;
+    }
+
+    .add-document-buuton {
+        margin-top: 16px;
+    }
+
+    .document-list {
+        margin-top: 21px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: variables.$black;
+    }
+
+    .list-view {
+        background: #FFFFFF;
+        border: 1px solid #D9D9D9;
+        border-radius: 5px;
+        padding: 10px;
+        margin-top: 12px;
+    }
+
+    .document-heading {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #000000;
+    }
+
+    .document-subheading {
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #000000;
+        margin-top: 5px;
+    }
+
+    .frame-view {
+        border: 1px solid #D9D9D9;
+        border-radius: 5px;
+        padding: 20px;
+        margin-right: 20px;
+        margin-top: 8px;
+        margin-bottom: 30px;
+    }
+
+    .preview {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        color: variables.$black;
+    }
+
+    #form-file-upload {
+     width: '100%';
+    }
+
+    #input-file-upload {
+        display: none;
+    }
+
+    #label-file-upload.drag-active {
+        background-color: #ffffff;
+    }
+
+    #label-file-upload {
+        border: 1px dashed variables.$blue;
+        border-radius: 5px;
+        height: 62px;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        color: variables.$blue;
+        margin-top: 13px;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
